@@ -144,8 +144,8 @@ app.get("/getPhone",(req,res)=>{
 	let str1=getCode();
 	const phoneNum = req.query.phone
 	console.log("手机号码",phoneNum)
-	accessKeyId='LTAI4GDQnaPWePo1zPTwqzrU';
-	secretAccessKey= '23TNKUDlPkaOYIqth6XzE4Qvrg6VBV';
+	accessKeyId='LTAI4G***********rU';
+	secretAccessKey= '23TNK****************V';
 	//初始化sms_client
 	let smsClient = new SMSClient({accessKeyId, secretAccessKey});
 	
