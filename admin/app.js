@@ -152,8 +152,8 @@ app.get("/getPhone",(req,res)=>{
 	// 开始发送短信
 	smsClient.sendSMS({
 		PhoneNumbers:phoneNum,
-		SignName:"smalldemo123",
-		TemplateCode:	"SMS_190095026",
+		SignName:"sm********mo123",
+		TemplateCode:	"SMS_19**********26",
 		TemplateParam:`{"code":'${str1}'}`,
 	}).then(result=>{
 		console.log("result",result)
